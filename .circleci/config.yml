@@ -3,6 +3,7 @@ jobs:
   build:
     docker:
       - image: circleci/node
+      - image: circleci/openjdk
     steps:
       - checkout
       - setup_remote_docker:
